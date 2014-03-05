@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/b633/workspace/branch/devr3w32/hardware/intel/linux-2.6/drivers/net/wireless'
+let g:netrw_dirhist_2='/home/b633/workspace/branch/devr3w32/hardware/intel/linux-2.6/drivers/net/wireless/bcmdhd'
+let g:netrw_dirhist_3='/home/b633/workspace/branch/devr3w32/hardware/intel/linux-2.6/drivers/net/wireless/bcmdhd/include'
+let g:netrw_dirhist_4='/home/b633/workspace/branch/devf1/kernel_imx/include/asm-generic'
+let g:netrw_dirhist_5='/home/b633/workspace/branch/falcon/vendor/intel/clovertrail/board/falcon'
+let g:netrw_dirhist_6='/home/b633/workspace/branch/devf2/devf2/frameworks/base/services/java/com/android/server/am'

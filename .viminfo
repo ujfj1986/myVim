@@ -1,0 +1,1047 @@
+# 这个 viminfo 文件是由 Vim 7.2 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/core_initcall
+
+# 上个 替换 Search 图案：
+~MSle0&KERN_ERROR
+
+# 最后替换的字符串
+$+ \2 (\1\/\2)
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:o net_namespace.c
+:wq
+:w
+:qa
+:o grep -nr "IFLA_IFNAME" ../../../
+:o WifiStateTracker.java
+:pwd
+:wa
+:o core/pktgen.c
+:o core/link_watch.c
+:o core/neighbour.c
+:o core/netpoll.c
+:o core/dev.c
+:s
+:o cfg80211.c
+:o mlme.c
+:1423
+:o host/sdhci.h
+:1428
+:o core/sdio.c
+:help workshop
+:taglist
+:sign
+:help sign
+:reg
+:Project
+:help project
+:help project.txt
+:help Project.txt
+:q!
+:o wifi_signal_open
+:o wifi_signal_lock.xml
+:a
+:18
+:o dhd_sdio.c
+:o wl_android.c
+:o Android.mk
+:o Makefile
+:qw
+:ww
+:o imx53_ard.mk
+:o AndroidBoardCommon.mk
+:W
+:set list
+:%s/KERN_ERROR/KERN_ERR/
+:5517
+:%s/KERN_ERROR/KERN_ERR/G
+:s/KERN_ERROR/KERN_ERR/g
+:3273
+
+# 查找字符串 历史记录 (从新到旧)：
+?/core_initcall
+? \<net_inuse_init\>
+?/wifi_disabled
+?/B633
+? \<rt_cache_flush\>
+? \<fib_disable_ip\>
+? \<inet_dump_fib\>
+?/dump
+?/SM_STEP
+?/enable
+? \<CurDir\>
+?/WIFI
+?/RTM_NEWLINK
+? \<wpa_driver_wext_set_drop_unencrypted\>
+?/set_drop_un
+?/closePD
+?/closePM
+? \<connectToPMDeamon\>
+? \<closePMDeamonConnection\>
+? \<EVENT_PMDEAMON_CONNECTION\>
+?/notifyPMDeamonConnection
+?/notifyPMDeamonLost
+? \<startEventLoop\>
+? \<mWifiPMMonitor\>
+? \<MonitorStackThread\>
+?/startMonitoring
+? \<WifiPMMonitor\>
+?/PMMonitor
+? \<EVENT_PMDEAMON_DISCONNECT\>
+? \<notifyPMDeamonConnection\>
+? \<eventPrefixLen\>
+? \<suspendEvent\>
+?/connectToPMDeamon
+?/\[%s\]
+?/ref_count
+?/unload
+?/setWifiEnabled
+? \<get_sb_pseudo\>
+? \<sockfs_get_sb\>
+? \<kill_anon_super\>
+? \<sock_fs_type\>
+? \<kern_mount\>
+? \<init_inodecache\>
+? \<skb_init\>
+? \<sk_init\>
+? \<sock_init\>
+?/init
+?/unregister
+? \<CONFIG_NO_STDOUT_DEBUG\>
+? \<wpa_debug_level\>
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+@*
+@wpa_debug_level
+@wpa_supplicant_init
+@wpa_supplicant_add_iface
+@fib_sync_down_dev
+@state_attr
+@unregister_netdevice
+@IPC_SOCKET_FOR_CSR_WIFI_POWER
+@sk_init
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	CHAR	0
+	here
+"1	LINE	0
+	printk(KERN_ERR"B633: num_channels:%d\n", num_channels);
+"2	LINE	0
+	printk(KERN_ERR"B633: [%s] (%s) a- ref %d\n", __func__, master->name, atomic_read(&master->refcnt));
+"3	LINE	0
+	printk(KERN_ERR"B633: [%s] (%s) b- ref %d\n", __func__, master->name, atomic_read(&master->refcnt));
+"4	LINE	0
+	printk(KERN_ERR"B633: [%s] (%s) a+ ref %d\n", __func__, master->name, atomic_read(&master->refcnt));
+"5	LINE	0
+	printk(KERN_ERR"B633: [%s] (%s) b+ ref %d\n", __func__, master->name, atomic_read(&master->refcnt));
+"6	LINE	0
+	printk(KERN_ERR"B633: [%s] (%s) a+ ref %d\n", __func__, dev->name, atomic_read(&dev->refcnt));
+"7	LINE	0
+	printk(KERN_ERR"B633: [%s] (%s) b+ ref %d\n", __func__, dev->name, atomic_read(&dev->refcnt));
+"8	LINE	0
+	if (!strcmp(dev->name, "wlan0")) printk(KERN_ERR"B633: [%s] (%s) b+ ref %d\n", __func__, dev->name, atomic_read(&dev->refcnt));
+"9	LINE	0
+	if (!strcmp(dev->name, "wlan0")) printk(KERN_ERR"B633: [%s] (%s) a+ ref %d\n", __func__, dev->name, atomic_read(&dev->refcnt));
+""-	CHAR	0
+	 
+
+# 文件标记:
+'0  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/core/net_namespace.c
+'1  91  0  ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/facedetect.cpp
+'2  6  35  ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/build_all.sh
+'3  1  0  ~/shjj/project/smartWear/opencv/opencv-2.4.4/README
+'4  258  33  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/AccessPoint.java
+'5  2  42  ~/shjj/project/smartWear/README.md
+'6  232  0  ~/workspace/branch/devf2/devf2/bootable/bootloader/uboot-imx/Makefile
+'7  1  0  ~/workspace/branch/devf2/devf2/bootable/bootloader/uboot-imx/Makefile
+'8  350  4  ~/workspace/branch/devf2/devf2/external/synergy/modules/wifi_softmac/host/os_linux/driver/sme_blocking.c
+'9  39  0  ~/workspace/branch/devf2/devf2/kernel_imx/include/net/dsa.h
+
+# 跳转列表 (从新到旧):
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/core/net_namespace.c
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/include/linux/-MiniBufExplorer-
+-'  2  58  ~/workspace/branch/devf2/devf2/kernel_imx/include/linux/-MiniBufExplorer-
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/include/linux/init.h
+-'  2254  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/core/sock.c
+-'  1275  2  ~/workspace/branch/devf2/devf2/kernel_imx/net/core/sock.c
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/core/sock.c
+-'  91  0  ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/facedetect.cpp
+-'  1  0  ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/facedetect.cpp
+-'  6  35  ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/build_all.sh
+-'  1  0  ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/build_all.sh
+-'  1  0  ~/shjj/project/smartWear/opencv/opencv-2.4.4/README
+-'  258  33  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/AccessPoint.java
+-'  1  0  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/AccessPoint.java
+-'  2  42  ~/shjj/project/smartWear/README.md
+-'  1  0  ~/shjj/project/smartWear/README.md
+-'  232  0  ~/workspace/branch/devf2/devf2/bootable/bootloader/uboot-imx/Makefile
+-'  1  0  ~/workspace/branch/devf2/devf2/bootable/bootloader/uboot-imx/Makefile
+-'  350  4  ~/workspace/branch/devf2/devf2/external/synergy/modules/wifi_softmac/host/os_linux/driver/sme_blocking.c
+-'  1  0  ~/workspace/branch/devf2/devf2/external/synergy/modules/wifi_softmac/host/os_linux/driver/sme_blocking.c
+-'  39  0  ~/workspace/branch/devf2/devf2/kernel_imx/include/net/dsa.h
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/-MiniBufExplorer-
+-'  2  1  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/-MiniBufExplorer-
+-'  746  2  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/route.c
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/route.c
+-'  908  12  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  644  5  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  1074  49  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  2  0  ~/workspace/branch/devf2/devf2/default.prop.3c5
+-'  1  0  ~/workspace/branch/devf2/devf2/default.prop.3c5
+-'  360  0  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+-'  354  17  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+-'  1  0  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+-'  118  44  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+-'  116  0  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+-'  1  0  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+-'  70  17  ~/.vimrc
+-'  66  12  ~/.vimrc
+-'  78  6  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  150  13  ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+-'  101  55  ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+-'  1  0  ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+-'  1  0  grep -nr "IFLA_IFNAME" ../../../
+-'  824  1  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  933  7  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  863  0  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  2995  1  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  1  0  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  2127  27  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  1977  4  ~/workspace/branch/devf2/devf2/frameworks/base/wifi/java/android/net/wifi/WifiStateTracker.java
+-'  39  0  ~/workspace/branch/devf2/devf2/kernel_imx/include/net/dsa.h
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/-MiniBufExplorer-
+-'  2  1  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/-MiniBufExplorer-
+-'  746  2  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/route.c
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/route.c
+-'  908  12  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  644  5  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  1074  49  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  1  0  ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+-'  2  0  ~/workspace/branch/devf2/devf2/default.prop.3c5
+-'  1  0  ~/workspace/branch/devf2/devf2/default.prop.3c5
+-'  360  0  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+-'  354  17  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+-'  1  0  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+-'  118  44  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+-'  116  0  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+-'  1  0  ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+-'  70  17  ~/.vimrc
+-'  66  12  ~/.vimrc
+-'  78  6  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  150  13  ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+-'  101  55  ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+-'  1  0  ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+-'  1  0  grep -nr "IFLA_IFNAME" ../../../
+-'  824  1  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+-'  933  7  ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/core/sock.c
+	"	2248	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/linux/init.h
+	"	187	33
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/linux/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/core/net_namespace.c
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/net/net_namespace.h
+	"	240	0
+
+> ~/workspace/branch/devf2/devf2/bionic/libc/kernel/common/linux/percpu.h
+	"	29	41
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/core/netpoll.c
+	"	868	1
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/arch/arm/configs/imx5_civiacsr_3c5_defconfig
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/Kconfig
+	"	1	0
+
+> ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/facedetect.cpp
+	"	91	0
+
+> ~/workspace/ibeacon/doc/CC2540DK_baidu/使用前先看我.txt
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/diff
+	"	36	1
+
+> ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/build_all.sh
+	"	6	35
+
+> ~/shjj/project/testOpencv/Makefile
+	"	2	9
+	^	2	10
+	.	2	9
+	+	2	0
+	+	1	5
+	+	2	9
+
+> ~/shjj/project/smartWear/opencv/opencv-2.4.4/CMakeLists.txt
+	"	33	0
+	^	58	2
+	.	58	0
+	+	58	0
+
+> ~/shjj/project/testOpencv/test.c
+	"	17	0
+	.	1	0
+	+	1	0
+
+> /etc/ld.so.conf.d/libc.conf
+	"	1	0
+
+> /etc/ld.so.conf
+	"	3	14
+	^	3	15
+	.	3	14
+	+	3	14
+
+> ~/shjj/project/smartWear/opencv/opencv-2.4.4/samples/c/CMakeLists.txt
+	"	1	0
+
+> ~/shjj/project/smartWear/opencv/opencv-2.4.4/README
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/AccessPoint.java
+	"	258	33
+
+> ~/shjj/project/smartWear/README.md
+	"	2	42
+	^	5	0
+	.	1	45
+	+	4	33
+	+	1	45
+
+> ~/workspace/branch/devf2/devf2/bootable/bootloader/uboot-imx/Makefile
+	"	232	0
+
+> ~/workspace/branch/devf2/devf2/external/synergy/modules/wifi_softmac/host/os_linux/driver/sme_blocking.c
+	"	350	4
+	.	350	0
+	+	350	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/fib_frontend.c
+	"	947	10
+	^	970	93
+	.	970	92
+	+	948	62
+	+	949	62
+	+	948	114
+	+	949	119
+	+	907	26
+	+	908	0
+	+	172	10
+	+	173	0
+	+	174	0
+	+	173	0
+	+	174	0
+	+	173	31
+	+	174	31
+	+	948	25
+	+	908	1
+	+	173	0
+	+	174	0
+	+	949	0
+	+	948	0
+	+	173	0
+	+	174	0
+	+	172	8
+	+	908	0
+	+	947	79
+	+	948	26
+	+	946	0
+	+	947	26
+	+	965	32
+	+	970	92
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/route.c
+	"	768	112
+	^	768	113
+	.	768	112
+	+	1431	23
+	+	1435	0
+	+	1432	114
+	+	1434	31
+	+	1907	0
+	+	1909	31
+	+	1907	93
+	+	1909	57
+	+	2052	0
+	+	2054	31
+	+	2243	0
+	+	2245	31
+	+	2453	0
+	+	2455	31
+	+	2453	90
+	+	2455	55
+	+	2646	0
+	+	2648	31
+	+	2701	0
+	+	2703	31
+	+	2729	0
+	+	2731	31
+	+	2823	16
+	+	2827	0
+	+	2824	0
+	+	2826	31
+	+	2824	93
+	+	2826	59
+	+	2597	99
+	+	2599	30
+	+	2613	0
+	+	2615	0
+	+	2640	15
+	+	2644	0
+	+	2641	0
+	+	2643	30
+	+	2615	30
+	+	2682	15
+	+	2686	0
+	+	2683	0
+	+	2684	0
+	+	2685	30
+	+	2695	15
+	+	2699	0
+	+	2696	0
+	+	2698	30
+	+	2723	14
+	+	2727	0
+	+	2724	0
+	+	2726	30
+	+	2741	14
+	+	2745	0
+	+	2742	0
+	+	2744	30
+	+	723	42
+	+	751	116
+	+	757	32
+	+	722	0
+	+	748	0
+	+	753	33
+	+	759	37
+	+	768	112
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/ipv4/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/net/dsa.h
+	"	39	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/net/route.h
+	"	58	1
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/net/netns/ipv4.h
+	"	58	12
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/include/net/dst.h
+	"	42	1
+
+> ~/workspace/branch/devf2/devf2/default.prop.3c5
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eapol_supp/eapol_supp_sm.c
+	"	360	0
+	.	354	0
+	+	354	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/wps_supplicant.c
+	"	814	2
+	.	577	0
+	+	577	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/events.c
+	"	877	11
+	^	1136	51
+	.	1136	50
+	+	1135	0
+	+	1136	50
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/-MiniBufExplorer-
+	"	1	141
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant/wpa_supplicant.c
+	"	645	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/common/defs.h
+	"	40	0
+
+> driver/driver_wext.c
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant/[File List]
+	"	32	0
+	.	3	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	3	0
+	t	5	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant/-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant/__Tag_List__
+	"	3	0
+	.	27	0
+	+	115	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	27	0
+
+> src/driver/driver_wext.c
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/driver_wext.c
+	"	651	4
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/ap/drv_callbacks.c
+	"	507	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/rsn_supp/wpa.h
+	"	319	21
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/rsn_supp/wpa_ft.c
+	"	603	5
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/[File List]
+	"	5	0
+	.	3	0
+	+	3	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/__Tag_List__
+	"	99	0
+	.	110	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	98	0
+	+	110	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/rsn_supp/wpa.c
+	"	2136	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/l2_packet/l2_packet_freebsd.c
+	"	314	7
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant/l2_packet_linux.c
+	"	196	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant/l2_packet_linux.h
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/eapol_supp/eapol_supp_sm.c
+	"	925	1
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/utils/state_machine.h
+	"	142	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/eapol_supp/[File List]
+	"	5	0
+	.	3	0
+	+	3	0
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/eapol_supp/__Tag_List__
+	"	3	0
+	.	98	0
+	+	98	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/utils/state_machine.h
+	"	144	11
+
+> ~/workspace/branch/devf2/devf2/external/hostapd-0.6.8/hostapd-0.8.x/src/eap_peer/eap.c
+	"	1298	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/services/java/com/android/server/WifiService.java
+	"	522	69
+	^	410	32
+	.	410	31
+	+	410	31
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/packages/SettingsProvider/src/com/android/providers/settings/DatabaseHelper.java
+	"	273	36
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/wifi/java/android/net/wifi/WifiStateTracker.java
+	"	1604	12
+	.	1366	0
+	+	1366	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/Android.mk
+	"	1131	0
+	.	1131	0
+	+	1131	51
+	+	1131	92
+	+	1131	120
+	+	1131	0
+
+> ~/workspace/branch/devf2/devf2/external/wireless_tools/Android.mk
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/CleanSpec.mk
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/Android.mk
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiEnabler.java
+	"	118	44
+
+> ~/workspace/branch/devf2/devf2/default.prop
+	"	28	21
+	^	28	22
+	.	28	21
+	+	28	21
+
+> ~/.vimrc
+	"	70	17
+	^	78	7
+	.	78	0
+	+	78	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/platform.xml
+	"	150	13
+
+> ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/WirelessSettings.java
+	"	176	12
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/core/java/android/net/ConnectivityManager.java
+	"	515	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/core/java/android/net/-MiniBufExplorer-
+	"	1	53
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/core/java/android/net/[File List]
+	"	19	0
+	.	3	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	75	0
+	+	3	0
+	t	5	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/core/java/android/net/__Tag_List__
+	"	134	4
+	.	142	0
+	+	143	0
+	+	142	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/services/java/com/android/server/ConnectivityService.java
+	"	1738	20
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/services/java/com/android/server/[File List]
+	"	19	0
+	.	3	0
+	+	1	0
+	+	1	0
+	+	3	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/services/java/com/android/server/__Tag_List__
+	"	102	4
+	.	212	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	213	0
+	+	212	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/services/java/com/android/server/connectivity/Tethering.java
+	"	216	28
+
+> ~/workspace/branch/devf2/devf2/.git/COMMIT_EDITMSG
+	"	6	34
+	^	6	35
+	.	6	34
+	+	13	72
+	+	20	0
+	+	10	0
+	+	5	72
+	+	6	34
+
+> ~/workspace/branch/devf2/devf2/packages/apps/Settings/src/com/android/settings/wifi/WifiSettings.java
+	"	113	0
+
+> ~/tmp/tmp/required_hardware.xml
+	"	1	1
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/data/etc/Android.mk
+	"	80	0
+
+> ~/tmp/tmp/platform.xml
+	"	90	0
+
+> ~/tmp/tmp/tmp.sh
+	"	1	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/drivers/-MiniBufExplorer-
+	"	1	17
+	.	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/README-WPS
+	"	85	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/wpa_supplicant.c
+	"	250	0
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/src/eap_peer/eap.c
+	"	489	4
+
+> ~/workspace/branch/devf2/devf2/external/wpa_supplicant_6/wpa_supplicant/ctrl_iface.c
+	"	226	42
+
+> ~/workspace/branch/android4.0r2/frameworks/base/wifi/java/android/net/wifi/WifiStateMachine.java
+	"	1673	8
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/wifi/java/android/net/wifi/WifiPMMonitor.java
+	"	244	16
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/wifi/java/android/net/wifi/-MiniBufExplorer-
+	"	1	22
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/frameworks/base/core/jni/android_net_wifi_Wifi.cpp
+	"	906	24
+
+> ~/workspace/branch/devf2/devf2/hardware/libhardware_legacy/wifi/wifi.c
+	"	98	11
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/socket.c
+	"	1181	1
+	.	320	0
+	+	320	1
+	+	320	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/[File List]
+	"	5	0
+	.	3	0
+	+	3	0
+	t	5	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/-MiniBufExplorer-
+	"	1	167
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/workspace/branch/devf2/devf2/kernel_imx/net/__Tag_List__
+	"	139	4
+	.	148	0
+	+	149	0
+	+	149	0
+	+	149	0
+	+	149	0
+	+	149	0
+	+	148	0
+
+> /tmp/vTWSvqw/-MiniBufExplorer-
+	"	1	12
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
