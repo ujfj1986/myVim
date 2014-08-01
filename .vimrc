@@ -54,7 +54,6 @@ nnoremap <silent> <F12> :A<CR>
 "时，别忘记回车
 set incsearch
 
-set tags=tags;
 set autochdir
 
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
@@ -67,7 +66,7 @@ function! CurDir()
      let curdir = substitute(getcwd(), $HOME, "~", "g")
      return curdir
 endfunction
-set statusline=%{CurDir()}/%f\ \ \|%=\|\ %l,%c\ %p%%\ \|\ ascii=%b,hex=%b%{((&fenc==\"\")?\"\":\"\ \|\ \".&fenc)}\ \|\ %{$USER}\ @\ %{hostname()}\
+""set statusline=%{CurDir()}/%f\ \ \|%=\|\ %l,%c\ %p%%\ \|\ ascii=%b,hex=%b%{((&fenc==\"\")?\"\":\"\ \|\ \".&fenc)}\ \|\ %{$USER}\ @\ %{hostname()}\
 "set statusline=[%n]\ %f%m%r%h\ \|\ \ pwd:\ %{CurDir()}\ \ \|%=\|\ %l,%c\ %p%%\ \|\ ascii=%b,hex=%b%{((&fenc==\"\")?\"\":\"\ \|\ \".&fenc)}\ \|\ %{$USER}\ @\ %{hostname()}\
 nnoremap <silent> <Leader>l :exe "let m = matchadd('WildMenu','\\%" . line('.') . "l')"<CR>
 nnoremap <silent> <Leader>w :exe "let m=matchadd('WildMenu','\\<\\w*\\%" . line(".") . "l\\%" . col(".") . "c\\w*\\>')"<CR>
@@ -184,9 +183,9 @@ func SetTitle()
 
         call append(line("."), "\# File Name: ".expand("%")) 
 
-        call append(line(".")+1, "\# Author: ma6174") 
+        call append(line(".")+1, "\# Author: Jiejing shan") 
 
-        call append(line(".")+2, "\# mail: ma6174@163.com") 
+        call append(line(".")+2, "\# mail: ujfj1986@163.com") 
 
         call append(line(".")+3, "\# Created Time: ".strftime("%c")) 
 
@@ -202,9 +201,9 @@ func SetTitle()
 
         call append(line("."), "    > File Name: ".expand("%")) 
 
-        call append(line(".")+1, "    > Author: ma6174") 
+        call append(line(".")+1, "    > Author: Jiejing shan") 
 
-        call append(line(".")+2, "    > Mail: ma6174@163.com ") 
+        call append(line(".")+2, "    > Mail: ujfj1986@163.com ") 
 
         call append(line(".")+3, "    > Created Time: ".strftime("%c")) 
 
@@ -324,7 +323,7 @@ map <F8> :call Rungdb()<CR>
 
 func! Rungdb()
 
-    exec "w"
+    exec "wa"
 
     exec "!g++ % -g -o %<"
 
@@ -484,7 +483,7 @@ set laststatus=2
 
 " 命令行（在状态行下）的高度，默认为1，这里是2
 
-set cmdheight=2
+""set cmdheight=2
 
 " 侦测文件类型
 
@@ -604,7 +603,7 @@ set completeopt=longest,menu
 
 let Tlist_Sort_Type = "name"    " 按照名称排序  
 
-let Tlist_Use_Right_Window = 1  " 在右侧显示窗口  
+""let Tlist_Use_Right_Window = 1  " 在右侧显示窗口  
 
 let Tlist_Compart_Format = 1    " 压缩方式  
 
@@ -614,7 +613,7 @@ let Tlist_File_Fold_Auto_Close = 0  " 不要关闭其他文件的tags
 
 let Tlist_Enable_Fold_Column = 0    " 不要显示折叠树  
 
-autocmd FileType java set tags+=D:\tools\java\tags  
+"autocmd FileType java set tags+=D:\tools\java\tags  
 
 "autocmd FileType h,cpp,cc,c set tags+=D:\tools\cpp\tags  
 
@@ -636,7 +635,7 @@ set tags=tags
 
 "默认打开Taglist 
 
-let Tlist_Auto_Open=1 
+""let Tlist_Auto_Open=1 
 
 """""""""""""""""""""""""""""" 
 
@@ -644,13 +643,13 @@ let Tlist_Auto_Open=1
 
 """""""""""""""""""""""""""""""" 
 
-let Tlist_Ctags_Cmd = '/usr/bin/ctags' 
+let Tlist_Ctags_Cmd = '/usr/local/bin/ctags' 
 
-let Tlist_Show_One_File = 1 "不同时显示多个文件的tag，只显示当前文件的 
+""let Tlist_Show_One_File = 1 "不同时显示多个文件的tag，只显示当前文件的 
 
-let Tlist_Exit_OnlyWindow = 1 "如果taglist窗口是最后一个窗口，则退出vim 
+""let Tlist_Exit_OnlyWindow = 1 "如果taglist窗口是最后一个窗口，则退出vim 
 
-let Tlist_Use_Right_Window = 1 "在右侧窗口中显示taglist窗口
+""let Tlist_Use_Right_Window = 1 "在右侧窗口中显示taglist窗口
 
 " minibufexpl插件的一般设置
 
