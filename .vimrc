@@ -659,3 +659,39 @@ let g:miniBufExplMapWindowNavArrows = 1
 
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+
+" vimwiki
+ 
+"     是否在词条文件保存时就输出html  这个会让保存大词条比较慢
+"       所以我默认没有启用  有需要的话就把这一行复制到下面去
+"     \ 'auto_export': 1,
+"     现在没有修改html的格式，暂时把这两句注释掉
+"
+"    \ 'html_header': 'E:/My Dropbox/Public/vimwiki_template/header.htm',
+"    \ 'html_footer': 'E:/My Dropbox/Public/vimwiki_template/footer.htm',
+" 多个维基项目的配置
+let g:vimwiki_list = [{'path': '/Users/shjj/vimwiki/work',
+    \'path_html' : '/Users/shjj/vimwiki/html',
+    \ 'diary_link_count': 5},
+    \{ 'path': '/Users/shjj/vimwiki/life'}]
+                                 
+ " 对中文用户来说，我们并不怎么需要驼峰英文成为维基词条
+ let g:vimwiki_camel_case = 0
+ 
+" 标记为完成的 checklist 项目会有特别的颜色
+let g:vimwiki_hl_cb_checked = 1
+
+" 我的 vim 是没有菜单的，加一个 vimwiki 菜单项也没有意义
+let g:vimwiki_menu = ''
+
+" 是否开启按语法折叠  会让文件比较慢
+let g:vimwiki_folding = 1
+
+" 是否在计算字串长度时用特别考虑中文字符
+ let g:vimwiki_CJK_length = 1
+ 
+" 添加更多可识别的html标签
+let g:vimwiki_valid_html_tags='b,i,s,u,sub,sup,kbd,del,br,hr,div,code,h1'
+
+map <S-F4> :VimwikiAll2HTML<cr>
+map <F4> :Vimwiki2HTML<cr>
